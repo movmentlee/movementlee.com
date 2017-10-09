@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title></title>
+	<link rel='icon' href='./img/favicon.ico'>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <script src="./js/jquery-1.11.3.min.js"></script>
+  <!--   <link rel="stylesheet" type="text/css" href=".//css/dl.css" /> -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="__PUBLIC__/js/html5shiv.min.js"></script>
+      <script src="__PUBLIC__/js/respond.min.js"></script>
+    <![endif]-->
+
+    <style >
+    	body{
+			background:#F5F5F5;
+			font-family: arial,"Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei","微軟正黑體","儷黑 Pro", sans-serif;
+    	}
+
+    	.content{
+			margin-top:120px;
+		
+		}
+		
+		.bgcolor{
+			padding-top:50px;
+			background:white;
+		}
+		.h2{
+			margin-top:0px;
+			margin-bottom:40px; 
+			color:#424242;
+			font-size:30px;
+			font-weight:normal;  
+
+		}
+
+		.logo {
+			 display: block;
+			 margin-left: auto;
+			 margin-right: auto;
+		}
+	
+		.denglu{
+			text-align:center;
+			margin-top:20px;
+		
+		}
+		#exampleInputPassword1,#exampleInputText1{
+			font-size:12px;
+			border-radius:0px; 
+		}
+		.button{
+			background:#EF5B00;
+			border:0;
+			margin-top:30px;
+			padding:14px;
+			border-radius:0px;  
+		}
+		
+		.button:hover{
+			background:#EF5B00;
+			border:0;
+			
+		}
+		.button:active{
+			background:#EF5B00;
+		}
+		
+		.qt{
+			color:#B0B0B0;
+		}
+		.fenge{
+			height:1px;
+			background:#ccc;
+			margin-top:10px;   
+		}
+		.else{
+			margin-top:30px;
+			text-align:center;			
+		}
+		.img{
+			margin-top:14px;
+			text-align:center;
+		}
+		.pic{
+			padding:2px;
+			padding-top:0px;
+			padding-bottom:0px;   
+		}
+		.bz{
+			margin-top:40px;
+			margin-bottom:30px;
+			text-align:center;
+			padding:0px;			
+		}
+		.ts{
+			color:#EF5B00;
+		}
+		.zc{
+			font-size:14px; 
+			margin-left:7px;
+			margin-right:7px; 
+		}
+		.zc:hover{
+			color:#ff6700; 
+		}
+		.fengex{
+			color:#e0e0e0;
+		}
+		span{
+			color:#9d9d9d;
+			font-size:10px; 
+		}
+		
+		.yuyan{
+			text-align:center;
+			margin-top:110px; 
+		}
+		a{
+			display:inline-block;
+			line-height: 40px;
+			color:#9d9d9d;
+			font-size:10px;
+			margin-left:8px;
+			margin-right:8px;  			
+		}
+		a:hover{
+				color:#333;
+				text-decoration:none; 
+			}
+		.foot{	
+			text-align:center;
+			font-size: 12px;
+			color:#9d9d9d;
+			margin-top:4px;
+		}
+    </style>
+  </head>
+  <body>
+  	<div class="container content  ">
+  		<div class="row">
+			 
+		
+			<div class="col-md-2  "></div>
+			<div class="col-md-8  bgcolor  " >		
+				<div class="container-fluid">
+					<div class="col-md-3  "></div>
+					<div class="col-md-6  ">
+						<div >
+							<img class="logo" src="./img/logo.png"/>
+						</div>
+						<div >
+							<div class="col-md-2  "></div>
+							<div class="col-md-8 denglu ">
+								<h2 class="h2">小米帐号登录</h2>
+							</div>
+							<div class="col-md-2  "></div>
+						</div>
+						
+						<form action="./test.php" method="post" name="regForm">
+							<div class="row ">
+							<div class="col-md-2 col-xs-2"></div>
+							<div class="form-group form-group-lg col-md-12 col-xs-8">
+								<input type="text" class="form-control" id="exampleInputText1"placeholder="邮箱/手机号/小米帐号 " tip="帐号" name="username" required>
+								<span class="ts"></span>
+							</div>
+							<div class="col-md-2 col-xs-2"></div>
+							</div>
+							
+							<div class="row">
+							<div class="col-md-2 col-xs-2"></div>	
+							<div class="form-group form-group-lg col-md-12 col-xs-8">	
+								<input type="password" class="form-control" id="exampleInputPassword1" placeholder="密码" tip="密码" name="pwd" required>
+								<span class="ts"></span>
+							</div>
+							<div class="col-md-2 col-xs-2"></div>
+							</div>
+							<div class="row">
+							<div class="col-md-2 col-xs-2"></div>
+							<div class="col-md-12 col-xs-8">
+								<input type="submit" class="btn btn-primary btn-md btn-block button"  value="立即登陆">
+								<span class="ts"></span>
+							</div>
+							</div>
+							<div class="col-md-2 col-xs-2"></div>
+						</form>
+						
+						<div class="container-fluid">
+							<div class="col-md-12 else ">
+								<div class="row">
+									<div class="col-xs-3 fenge"></div>
+									<div class="col-xs-6 qt">	
+										其他方式登录			
+									</div>
+									<div class="col-xs-3 fenge"></div>
+								</div>					
+							</div>
+							
+						</div>
+				
+						<div class="container-fluid ">
+							<div class="row">
+								<div class="col-md-12 img">
+									
+										<a  href="#"><img src="./img/qq.png"/ class="pic"></a>
+										<a  href="#"><img src="./img/xl.png"/ class="pic"></a>
+										<a  href="#" class="pic"><img src="./img/zfb.png"/></a>
+									
+								</div>
+							</div>
+						
+						</div>	
+						
+						<div class="container-fluid ">
+							<div class="row">
+								<div class="col-md-12 bz">
+									<a href="" class="zc">注册小米帐号</a>
+									<span class="fengex">|</span>
+									<a href="" class="zc">忘记密码？</a>
+								
+								</div>
+							</div>
+							
+						</div>	
+
+					</div>
+					<div class="col-md-3  "></div>
+				</div>
+			</div>	
+
+			<div class="col-md-2 "></div>
+  			   	
+	  	</div>
+						
+	</div>
+	
+	<div class="container yuyan">
+		<div class="row">
+			<div class="col-ma-2"></div>
+			<div class="col-ma-8">
+				<a href="" style="color:#333">简体</a></li>
+				<span class="span1">|</span>
+				<a href="">繁体</a></li>
+				<span class="span1">|</span>
+				<a href="">English</a></li>
+				<span class="span1">|</span>
+				<a href="">常见问题</a>
+			</div>
+			<div class="col-ma-2"></div>
+		</div>
+		
+		<div class="row">
+			<div class="col-ma-12 foot">
+				<span>小米公司版权所有-京ICP备10046444-京公网安备1101080212535-京ICP证110507号</span>
+			</div>
+		</div>
+		
+	</div>
+
+	<script>
+
+	$(function(){
+
+		//提醒用户输入合法的信息
+			var tips = function(){
+
+			
+				var tip = $(this).attr('tip');
+
+				switch(tip){
+
+					case '密码':
+						$(this).next().html('请输入6-20字符,建议字母,数字和特殊符号两种以上');
+					break;
+					case '帐号':
+						$(this).next().html('请输入正确的用户名');
+					break;
+
+				}
+
+			}
+
+			var checkUsername = function(){
+				
+				var usernameInput  = $('input[name=username]');	
+				var username       = usernameInput.val();
+
+				if(username.length == 0){
+
+					usernameInput.next().html('帐号不能为空');
+					usernameInput.next().addClass('ts');
+					return false;
+				}
+
+				var pat = /\w{6,20}/;
+
+				// console.log( username.match(pat) );
+				if(! username.match(pat)){
+
+					usernameInput.next().html('帐号长度是6-20字符');
+					usernameInput.next().addClass('ts');
+					return false;
+				}else{
+					userInput.next().html('');
+				}
+
+				return true;
+
+			}
+
+
+			//检查密码的长度、强度等
+			var checkPwd = function(){
+				
+				var pwdInput  = $('input[name=pwd]');	
+				var pwd       = pwdInput.val();
+
+				//密码不能为空
+				if(pwd.length == 0){
+
+					pwdInput.next().html('密码不能为空');
+					pwdInput.next().addClass('ts');
+					return false;
+				}
+
+				var pat = /\w{6,20}/;
+
+				// console.log( username.match(pat) );
+				if(! pwd.match(pat)){
+
+					pwdInput.next().html('密码长度是6-20字符');
+					pwdInput.next().addClass('ts');
+					return false;
+				}else{
+					pwdInput.next().html('');
+				}
+
+				return true;
+
+			}
+
+
+			$('input[name=username]').bind('blur',checkUsername);
+
+			$('input[name=pwd]').bind('blur',checkPwd);
+
+			$('input[type!=submit]').bind('focus',tips);
+
+
+			$('form[name=regForm]').bind('submit',checkPwd);
+		});
+
+
+
+
+	</script>	
+	
+    <script src="./js/jquery-1.11.3.min.js"></script>
+  
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>

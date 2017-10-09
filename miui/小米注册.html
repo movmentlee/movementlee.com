@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title></title>
+	<link rel='icon' href='./img/favicon.ico'>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <script src="./js/jquery-1.11.3.min.js"></script>
+  <!--   <link rel="stylesheet" type="text/css" href=".//css/dl.css" /> -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="__PUBLIC__/js/html5shiv.min.js"></script>
+      <script src="__PUBLIC__/js/respond.min.js"></script>
+    <![endif]-->
+
+    <style >
+    	body{
+			background:#F5F5F5;
+			font-family: arial,"Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei","微軟正黑體","儷黑 Pro", sans-serif; 
+    	}
+
+    	.content{
+			margin-top:180px;
+		
+		}
+		
+		.bgcolor{
+			background:white; 
+		}
+		.h2{
+			margin-top:0px;
+			margin-bottom:40px; 
+			color:#424242;
+			font-size:30px;
+			font-weight:normal;  
+
+		}
+
+		.logo {
+			 display: block;
+			 margin-left: auto;
+			 margin-right: auto;
+		}
+	
+		.denglu{
+			text-align:center;
+			margin-top:40px;
+		
+		}
+		.button{
+			background:#EF5B00;
+			border:0;
+			margin-top:30px;
+			padding:14px;
+			border-radius:0px;  
+		}
+		#exampleInputPassword1,#exampleInputEmail1,#exampleInputText1{
+			font-size:12px;
+			border-radius:0px;
+		}
+		.ts{
+			color:#EF5B00;
+		}
+		.form-control {
+			height:40px;
+		}
+
+		.button:hover{
+			background:#EF5B00;
+			border:0;
+			
+		}
+		.button:active{
+			background:#EF5B00;
+		}
+		.tiaoz{
+			margin:0px;
+		}
+		.yzm{
+			position:relative;
+			left:-30px;
+		}
+		.qt{
+			font-size:12px;
+			color:#B0B0B0;
+			text-align:center;
+		}
+		.xy{
+			height:20px;
+			color:#333;
+			font-weight:bold;
+			line-height:20px;
+			margin-bottom:40px;
+		}
+		.fenge{
+			height:1px;
+			background:#ccc;
+			margin-top:10px;   
+		}
+		div.row{
+			margin-top:-5px;
+			text-align:left;
+			padding:0px; 			
+		}		
+		span{
+			color:#9d9d9d;
+			font-size:10px;  
+		}
+
+		.yuyan{
+			text-align:center;
+			margin-top:170px; 
+		}
+		a{
+			display:inline-block;
+			line-height: 40px;
+			color:#9d9d9d;
+			font-size:10px;
+			margin-left:8px;
+			margin-right:8px;  			
+		}
+		a:hover{
+				color:#333;
+				text-decoration:none; 
+			}
+		.foot{	
+			text-align:center;
+			font-size: 12px;
+			color:#9d9d9d;
+			margin-top:4px;
+		}
+    </style>
+  </head>
+  <body>
+  	<div class="container content  ">
+  		<div class="row">
+			 
+		
+			<div class="col-md-2  "></div>
+			<div class="col-md-8  bgcolor  " >		
+				<div class="container-fluid">
+					<div class="col-md-3  "></div>
+					<div class="col-md-6  ">
+						<div >
+							<img class="logo" src="./img/logo.png"/>
+						</div>
+						<div class="row">
+							<div class="col-md-2 col-xs-2"></div>
+							<div class="col-md-8 col-xs-8 denglu ">
+								<h2 class="h2">注册小米帐号</h2>
+							</div>
+							<div class="col-md-2 col-xs-2 "></div>
+						</div>
+						
+						<form action="./test.php" method="post" name="regForm">
+							<div class="row ">
+							<div class="form-group col-md-12 ">
+								<input type="text" class="form-control" id="exampleInputEmail1"placeholder="中国(+86)" tip="手机" name="phone"required>
+								<span class="ts"></span>
+							</div>
+							</div>
+							
+							<div class="row">	
+							<div class="form-group col-md-12">	
+								<input type="password" class="form-control" id="exampleInputPassword1" placeholder="请输入密码" tip="密码" name="pwd"required>
+								<span class="ts"></span>
+							</div>
+							</div>
+
+							<div class="row">
+							<div class="form-group  col-md-8 col-xs-8">	
+								<input type="text" class="form-control" id="exampleInputText1" placeholder="图片验证码" tip="验证码" name="ver"required>
+								<span class="ts"></span>
+							</div>
+							<div class="form-group  col-md-2 col-xs-2">	
+								<img src="./img/yzm.png" class="yzm img-responsiv">
+							</div>
+
+
+							</div>
+							<div class="row">
+							<div class="form-group col-md-12">	
+								<input type="submit" class="btn btn-primary btn-md btn-block button tiaoz"  value="立即注册">
+							</div>
+							</div>
+						</form>
+						<div class="container-fluid">
+								<div class="row">
+									<p class="col-md-12 qt">	
+										 点击“立即注册”，即表示您同意并愿意遵守小米
+										 <a href="" class='xy'>用户协议</a>
+										 和
+										 <a href="" class='xy'>隐私政策</a>
+
+									</p>
+								</div>					
+							</div>
+							
+						</div>
+				
+					</div>
+					<div class="col-md-3  "></div>
+				</div>
+			</div>	
+
+			<div class="col-md-2 "></div>
+  			   	
+	  	</div>
+						
+	</div>
+	
+	<div class="container yuyan">
+		<div class="row" style="text-align:center">
+			<div class="col-ma-2"></div>
+			<div class="col-ma-8">
+				<a href="" style="color:#333">简体</a></li>
+				<span class="span1">|</span>
+				<a href="">繁体</a></li>
+				<span class="span1">|</span>
+				<a href="">English</a></li>
+				<span class="span1">|</span>
+				<a href="">常见问题</a>
+			</div>
+			<div class="col-ma-2"></div>
+		</div>
+		
+		<div class="row">
+			<div class="col-ma-12 foot">
+				<span>小米公司版权所有-京ICP备10046444-京公网安备1101080212535-京ICP证110507号</span>
+			</div>
+		</div>
+		
+	</div>
+
+	<script>
+		$(function(){
+
+		//提醒用户输入合法的信息
+			var tips = function(){
+
+			
+				var tip = $(this).attr('tip');
+
+				switch(tip){
+
+					case '密码':
+						$(this).next().html('请输入6-20字符,建议字母,数字和特殊符号两种以上');
+					break;
+					case '手机':
+						$(this).next().html('请输入正确的手机号码');
+					break;
+					case '验证码':
+						$(this).next().html('请输入正确的验证码');
+					break;
+				}
+
+			}
+
+			var checkPhone = function(){
+				
+				var phoneInput  = $('input[name=phone]');	
+				var phone       = phoneInput.val();
+
+				if(phone.length == 0){
+
+					phoneInput.next().html('手机号不能为空');
+					phoneInput.next().addClass('ts');
+					return false;
+				}
+
+				var pattern =/^1[34578]\d{9}$/;
+
+				// console.log( username.match(pat) );
+				if(! phone.match(pattern)){
+
+					phoneInput.next().html('手机号无效,请重新输入');
+					phoneInput.next().addClass('ts');
+					return false;
+				}else{
+					phoneInput.next().html('');
+				}
+
+				return true;
+
+			}
+
+
+			//检查密码的长度、强度等
+			var checkPwd = function(){
+				
+				var pwdInput  = $('input[name=pwd]');	
+				var pwd       = pwdInput.val();
+
+				//密码不能为空
+				if(pwd.length == 0){
+
+					pwdInput.next().html('密码不能为空');
+					pwdInput.next().addClass('ts');
+					return false;
+				}
+
+				var pattern = /\w{6,20}/;
+
+				// console.log( username.match(pat) );
+				if(! pwd.match(pattern)){
+
+					pwdInput.next().html('密码长度是6-20字符');
+					pwdInput.next().addClass('ts');
+					return false;
+				}else{
+					pwdInput.next().html('');
+				}
+
+
+				return true;
+
+			}
+
+			var checkVer = function(){
+				
+				var verInput  = $('input[name=ver]');	
+				var ver      = verInput.val();
+
+				if(ver.length == 0){
+
+					verInput.next().html('验证码不能为空');
+					verInput.next().addClass('ts');
+					return false;
+				}
+
+				var pattern =/\w{5}/;
+
+				// console.log( username.match(pat) );
+				if(! ver.match(pattern)){
+
+					verInput.next().html('验证码长度是5个字符');
+					verInput.next().addClass('ts');
+					return false;
+				}else{
+					verInput.next().html('');
+				}
+
+				return true;
+
+			}
+
+
+			$('input[name=phone]').bind('blur',checkPhone);
+
+			$('input[name=pwd]').bind('blur',checkPwd);
+
+			$('input[name=ver]').bind('blur',checkVer);
+
+			$('input[type!=submit]').bind('focus',tips);
+
+
+			$('form[name=regForm]').bind('submit',checkPwd);
+		});
+
+
+
+
+	</script>
+		
+	
+    <script src="./js/jquery-1.11.3.min.js"></script>
+  
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
