@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>手机验证登录</title>
+
+    <!-- Bootstrap -->
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="../css/phone_login.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	  <section class="container">
+		<div class="row borderBox">
+			<div class="col-md-2"></div>
+					<form class="form-inline col-md-8">
+						<img src='../img/logo.png' />
+						<br />
+						<h1 class="doubLogin">手机验证登录</h1>
+						<br />
+					  <div class="form-group aboutTop">
+						<label for="phoneNum">手机号</label>
+						<input type="text" class="form-control" id="phoneNum" placeholder="11位纯数字">
+					  </div>
+					  <div class="form-group aboutTop">
+						<label for="testNum">验证码</label>
+						<input type="test" class="form-control" id="testNum" placeholder="收到的验证码">
+					  </div>
+					  <button type="submit" class="btn btn-default aboutTop">获取验证码</button>
+					  <br />
+					  <button type="submit" class="btn btn-success loginTop">验证登录</button>
+					  <a href="./login.html" class="btn btn-primary btn-lg active loginTop1 loginTop" role="button">账号登录</a>
+					  <a href="#" class="btn btn-info btn-lg active loginTop2 loginTop" role="button">其它账号登录</a>
+					  <div class="buttonText">
+						<div> > 还没有豆瓣账号?<a href="./register.html">立即注册</a></div>
+						<div> > <a href="#">点击下载豆瓣应用</a></div>
+					  </div>
+					</form>
+			<div class="col-md-2"></div>
+		</div>
+	  </section>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+	<script src="../js/phont_login.js"></script>
+  </body>
+</html>

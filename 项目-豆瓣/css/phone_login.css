@@ -1,0 +1,70 @@
+body{
+	margin:0px;
+	padding:0px;
+	background:#f0f0f0;
+}
+h1{
+	color:black;
+	font-weight:blod;
+}
+a:hover{
+	text-decoration:none;
+}
+.borderBox{
+	background:white;
+	border:1px solid #ccc;
+	border-radius:50px;
+	margin:0 auto;
+	padding:100px 5px;
+	margin-top:10%;
+}
+label{
+	color:black;
+	font-weight:bold;
+}
+.aboutTop{
+	margin-top:20px;
+}
+
+.loginTop{
+	margin-top:30px;
+}
+
+.buttonText{
+	margin-top:200px;
+}
+button.loginTop{
+	width:194px;
+	font-size:16px;
+	border-radius:6px;
+}
+a.loginTop1{
+	padding:6px;
+	font-size:16px;
+	height:36px;
+	width:194px;
+}
+a.loginTop1:hover{
+	background:#1e4776;
+}
+a.loginTop2{
+	padding:6px;
+	font-size:16px;
+	height:36px;
+	width:194px;
+}
+a.loginTop2:hover{
+	background:#2895c3;
+}
+.red{
+	color:red;
+}
+.sendSuccess{
+	position:relative;
+	top:20px;
+	left:5px;
+	display:inline-block;
+	color:blue;
+	text-decoration:underline;
+	height:20px;
+}

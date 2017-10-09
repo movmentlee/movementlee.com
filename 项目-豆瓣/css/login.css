@@ -1,0 +1,194 @@
+body{
+			margin:0;
+		}	
+		ul li{
+			list-style:none;
+		}
+		a{
+			text-decoration:none;
+			color:#5b88aa;
+		}
+		a:hover{
+			background:#37a;
+			color:#fff;
+		}	
+		header,section,footer{
+			width:960px;
+			margin:0 auto;
+			position:relative;
+			top:50px;
+		}		
+		.font{
+			color:#717374;
+			font-size:12px;
+		}
+		 a.clear:hover{
+			background:none;
+		}
+		/*共有*/
+		
+		/*内容*/
+		
+	
+		header div{
+			width:215px;
+			height:30px;
+		}
+		header h2{
+			margin:30px 0;
+			font-weight:bolder;
+		}		
+		article.left{
+			display:inline-block;
+		}
+		article.left form a{
+			font-size:12px;
+			position:absolute;
+			top:-14px;
+			right:10px;
+		}
+		article.left form{
+			width:320px;
+			position:relative;
+		}
+		table{
+			margin-top:30px;
+			width:500px;
+		}
+		table tr td{
+			height:40px;
+		}
+		table input{
+			display:inline-block;
+			border:1px solid #ccc;
+			border-radius:2px;
+			height:32px;
+		}
+	
+		table input[type="submit"]{
+			cursor:pointer;
+			background:white;
+			height:36px;
+			width:100px;
+		}
+		table tr td[align]{
+			padding-right:10px;
+		}
+		table tr td[info]{
+			position:relative;
+		}
+		div.two{
+			margin-top:20px;
+			padding-left:80px;
+		}
+		div.two span{
+			font-size:12px;
+		}
+		div.two input[name="register"]{
+			margin-top:20px;
+			display:block;
+			width:84px;
+			height:34px;
+			cursor:pointer;
+			border:1px solid #3ca353;
+			border-radius:2px;
+			font-size:14px;
+			background-color:#3ca353;
+			color:#fff;
+		}
+		article.left div.three{
+			position:relative;
+			left:80px;
+			top:24px;
+			height:32px;
+			width:236px;
+			border-top:1px solid #e0e0e0;
+			border-bottom:1px solid #e0e0e0;
+			line-height:32px;
+		}
+		article.left div.three a:hover{
+			background:none;
+		}
+		article.left div.three span.font+a{
+			position:absolute;
+			display:inline-block;
+		}
+		article.left div.three span.font+a+a{
+			position:relative;
+			left:20px;
+		}
+			/*section右部*/
+			article.right{
+				display:inline-block;
+				position:absolute;
+				right:0;
+			}
+			article.right div:nth-child(1){
+				margin-top:18px;
+			}
+			article.right div div{
+				display:inline-block;
+			}
+			article.right div:nth-child(2) div,article.right a:nth-child(2){
+				margin-top:20px;
+			}
+		
+		
+		/*内容*/
+		
+		
+		/*脚部*/
+		footer{
+			margin-top:150px;
+		}
+		footer div.line{
+			width:960px;
+			border-bottom:2px dotted #ccc;
+		}
+		footer span{
+			margin-top:5px;
+			display:inline-block;
+			color:#ccc;
+			font-size:12px;
+		}
+		footer ul{
+			position:absolute;
+			margin:0;
+			left:452px;
+			display:inline-block;
+		}
+		footer ul li{
+			margin-top:5px;
+			float:left;
+			font-size:12px;
+		}
+		
+		/*javascript中的类*/
+		.userNameSpan{
+			text-align:center;
+			line-height:32px;
+			height:32px;
+			width:100px;
+			color:red;
+			display:inline-block;
+			border:1px solid #f38888;
+			background:#fbc4c4;
+			position:absolute;
+			right:-96px;
+			font-size:14px;
+		}
+		.userNameSpanOK{
+			text-align:center;
+			line-height:32px;
+			height:32px;
+			width:100px;
+			color:green;
+			display:inline-block;
+			border:1px solid #79ef81;
+			background:#d2f8d5;
+			position:absolute;
+			right:-96px;
+			font-size:14px;
+			
+		}
+	
